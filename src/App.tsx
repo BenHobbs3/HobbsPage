@@ -7,9 +7,9 @@ function App() {
 
   return (
     <>
-      <h1>Ben's Button but this time, it's broken</h1>
+      <h1>Ben's Button, press to make number bigger</h1>
       <div className="card">
-        <button onClick={() => setCount((count) => count - 1)}>
+        <button onClick={() => setCount((count) => count + 1)}>
           count is {count}
         </button>
       </div>
